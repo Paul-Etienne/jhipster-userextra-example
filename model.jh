@@ -1,0 +1,7 @@
+entity UserExtra {
+    phone String
+}
+
+relationship OneToOne {
+    UserExtra{user} to User
+}
